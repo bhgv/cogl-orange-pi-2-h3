@@ -1,0 +1,8 @@
+cogl-profile.lo: cogl-profile.c /usr/include/stdc-predef.h ../config.h \
+ ../config-custom.h
+
+/usr/include/stdc-predef.h:
+
+../config.h:
+
+../config-custom.h:

@@ -1,0 +1,58 @@
+libcogl_path_la-geom.lo: tesselator/geom.c /usr/include/stdc-predef.h \
+ tesselator/gluos.h /usr/include/assert.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h tesselator/mesh.h \
+ tesselator/GL/glu.h tesselator/GL/../tesselator.h ../cogl/cogl-defines.h \
+ ../cogl/cogl-gl-header.h ../cogl/cogl-defines.h /usr/include/GL/gl.h \
+ /usr/include/GL/glext.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/4.9/include/stddef.h \
+ /usr/include/inttypes.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/4.9/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ tesselator/geom.h
+
+/usr/include/stdc-predef.h:
+
+tesselator/gluos.h:
+
+/usr/include/assert.h:
+
+/usr/include/features.h:
+
+/usr/include/arm-linux-gnueabihf/sys/cdefs.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wordsize.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h:
+
+tesselator/mesh.h:
+
+tesselator/GL/glu.h:
+
+tesselator/GL/../tesselator.h:
+
+../cogl/cogl-defines.h:
+
+../cogl/cogl-gl-header.h:
+
+../cogl/cogl-defines.h:
+
+/usr/include/GL/gl.h:
+
+/usr/include/GL/glext.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/4.9/include/stddef.h:
+
+/usr/include/inttypes.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/4.9/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wchar.h:
+
+tesselator/geom.h:

@@ -1,0 +1,571 @@
+test_conformance-test-wrap-modes.o: test-wrap-modes.c \
+ /usr/include/stdc-predef.h ../../cogl/cogl.h ../../cogl/cogl-defines.h \
+ ../../cogl/cogl-macros.h ../../cogl/cogl-version.h \
+ ../../cogl/cogl-error.h ../../cogl/cogl-types.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/4.9/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/4.9/include/stddef.h \
+ /usr/include/glib-2.0/glib-object.h \
+ /usr/include/glib-2.0/gobject/gbinding.h /usr/include/glib-2.0/glib.h \
+ /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
+ /usr/lib/arm-linux-gnueabihf/glib-2.0/include/glibconfig.h \
+ /usr/include/glib-2.0/glib/gmacros.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/4.9/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/4.9/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/4.9/include/float.h \
+ /usr/include/glib-2.0/glib/gversionmacros.h /usr/include/time.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/xlocale.h \
+ /usr/include/glib-2.0/glib/garray.h \
+ /usr/include/glib-2.0/glib/gasyncqueue.h \
+ /usr/include/glib-2.0/glib/gthread.h \
+ /usr/include/glib-2.0/glib/gatomic.h /usr/include/glib-2.0/glib/gerror.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/4.9/include/stdarg.h \
+ /usr/include/glib-2.0/glib/gquark.h /usr/include/glib-2.0/glib/gutils.h \
+ /usr/include/glib-2.0/glib/gbacktrace.h /usr/include/signal.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/signum.h \
+ /usr/include/arm-linux-gnueabihf/bits/siginfo.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigaction.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigcontext.h \
+ /usr/include/arm-linux-gnueabihf/asm/sigcontext.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigstack.h \
+ /usr/include/arm-linux-gnueabihf/sys/ucontext.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap-16.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigthread.h \
+ /usr/include/glib-2.0/glib/gbase64.h \
+ /usr/include/glib-2.0/glib/gbitlock.h \
+ /usr/include/glib-2.0/glib/gbookmarkfile.h \
+ /usr/include/glib-2.0/glib/gbytes.h \
+ /usr/include/glib-2.0/glib/gcharset.h \
+ /usr/include/glib-2.0/glib/gchecksum.h \
+ /usr/include/glib-2.0/glib/gconvert.h \
+ /usr/include/glib-2.0/glib/gdataset.h /usr/include/glib-2.0/glib/gdate.h \
+ /usr/include/glib-2.0/glib/gdatetime.h \
+ /usr/include/glib-2.0/glib/gtimezone.h /usr/include/glib-2.0/glib/gdir.h \
+ /usr/include/dirent.h /usr/include/arm-linux-gnueabihf/bits/dirent.h \
+ /usr/include/glib-2.0/glib/genviron.h \
+ /usr/include/glib-2.0/glib/gfileutils.h \
+ /usr/include/glib-2.0/glib/ggettext.h /usr/include/glib-2.0/glib/ghash.h \
+ /usr/include/glib-2.0/glib/glist.h /usr/include/glib-2.0/glib/gmem.h \
+ /usr/include/glib-2.0/glib/gnode.h /usr/include/glib-2.0/glib/ghmac.h \
+ /usr/include/glib-2.0/glib/gchecksum.h \
+ /usr/include/glib-2.0/glib/ghook.h \
+ /usr/include/glib-2.0/glib/ghostutils.h \
+ /usr/include/glib-2.0/glib/giochannel.h \
+ /usr/include/glib-2.0/glib/gmain.h /usr/include/glib-2.0/glib/gpoll.h \
+ /usr/include/glib-2.0/glib/gslist.h /usr/include/glib-2.0/glib/gstring.h \
+ /usr/include/glib-2.0/glib/gunicode.h \
+ /usr/include/glib-2.0/glib/gkeyfile.h \
+ /usr/include/glib-2.0/glib/gmappedfile.h \
+ /usr/include/glib-2.0/glib/gmarkup.h \
+ /usr/include/glib-2.0/glib/gmessages.h \
+ /usr/include/glib-2.0/glib/goption.h \
+ /usr/include/glib-2.0/glib/gpattern.h \
+ /usr/include/glib-2.0/glib/gprimes.h /usr/include/glib-2.0/glib/gqsort.h \
+ /usr/include/glib-2.0/glib/gqueue.h /usr/include/glib-2.0/glib/grand.h \
+ /usr/include/glib-2.0/glib/gregex.h \
+ /usr/include/glib-2.0/glib/gscanner.h \
+ /usr/include/glib-2.0/glib/gsequence.h \
+ /usr/include/glib-2.0/glib/gshell.h /usr/include/glib-2.0/glib/gslice.h \
+ /usr/include/glib-2.0/glib/gspawn.h \
+ /usr/include/glib-2.0/glib/gstrfuncs.h \
+ /usr/include/glib-2.0/glib/gstringchunk.h \
+ /usr/include/glib-2.0/glib/gtestutils.h \
+ /usr/include/glib-2.0/glib/gthreadpool.h \
+ /usr/include/glib-2.0/glib/gtimer.h \
+ /usr/include/glib-2.0/glib/gtrashstack.h \
+ /usr/include/glib-2.0/glib/gtree.h \
+ /usr/include/glib-2.0/glib/gurifuncs.h \
+ /usr/include/glib-2.0/glib/gvarianttype.h \
+ /usr/include/glib-2.0/glib/gvariant.h \
+ /usr/include/glib-2.0/glib/gversion.h \
+ /usr/include/glib-2.0/glib/glib-autocleanups.h \
+ /usr/include/glib-2.0/gobject/gobject.h \
+ /usr/include/glib-2.0/gobject/gtype.h \
+ /usr/include/glib-2.0/gobject/gvalue.h \
+ /usr/include/glib-2.0/gobject/gparam.h \
+ /usr/include/glib-2.0/gobject/gclosure.h \
+ /usr/include/glib-2.0/gobject/gsignal.h \
+ /usr/include/glib-2.0/gobject/gmarshal.h \
+ /usr/include/glib-2.0/gobject/gboxed.h \
+ /usr/include/glib-2.0/gobject/glib-types.h \
+ /usr/include/glib-2.0/gobject/genums.h \
+ /usr/include/glib-2.0/gobject/gparamspecs.h \
+ /usr/include/glib-2.0/gobject/gsourceclosure.h \
+ /usr/include/glib-2.0/gobject/gtypemodule.h \
+ /usr/include/glib-2.0/gobject/gtypeplugin.h \
+ /usr/include/glib-2.0/gobject/gvaluearray.h \
+ /usr/include/glib-2.0/gobject/gvaluetypes.h \
+ /usr/include/glib-2.0/gobject/gobject-autocleanups.h \
+ ../../cogl/cogl-object.h ../../cogl/cogl-types.h \
+ ../../cogl/cogl1-context.h ../../cogl/cogl-texture.h \
+ ../../cogl/cogl-pixel-buffer.h ../../cogl/cogl-context.h \
+ ../../cogl/cogl-display.h ../../cogl/cogl-renderer.h \
+ ../../cogl/cogl-onscreen-template.h ../../cogl/cogl-swap-chain.h \
+ ../../cogl/cogl-output.h ../../cogl/cogl-primitive.h \
+ ../../cogl/cogl-attribute.h ../../cogl/cogl-attribute-buffer.h \
+ ../../cogl/cogl-indices.h ../../cogl/cogl-index-buffer.h \
+ ../../cogl/cogl-framebuffer.h ../../cogl/cogl-pipeline.h \
+ ../../cogl/cogl-snippet.h ../../cogl/cogl-bitmap.h \
+ ../../cogl/cogl-buffer.h ../../cogl/cogl-quaternion.h \
+ ../../cogl/cogl-vector.h ../../cogl/cogl-euler.h ../../cogl/cogl-color.h \
+ ../../cogl/cogl-matrix.h ../../cogl/cogl-matrix-stack.h \
+ ../../cogl/cogl-matrix.h ../../cogl/cogl-context.h \
+ ../../cogl/cogl-offscreen.h ../../cogl/cogl-primitives.h \
+ ../../cogl/cogl-enum-types.h ../../cogl/deprecated/cogl-clip-state.h \
+ ../../cogl/deprecated/cogl-vertex-buffer.h \
+ ../../cogl/deprecated/cogl-fixed.h \
+ ../../cogl/deprecated/cogl-material-compat.h \
+ ../../cogl/cogl-depth-state.h ../../cogl/deprecated/cogl-shader.h \
+ ../../cogl/deprecated/cogl-texture-deprecated.h \
+ ../../cogl/deprecated/cogl-type-casts.h \
+ ../../cogl/deprecated/cogl-framebuffer-deprecated.h \
+ ../../cogl/deprecated/cogl-auto-texture.h ../../cogl/cogl-texture-2d.h \
+ ../../cogl/cogl-bitmap.h ../../cogl/cogl-texture-2d-gl.h \
+ ../../cogl/cogl-texture-2d.h ../../cogl/cogl-texture-rectangle.h \
+ ../../cogl/cogl-texture-3d.h ../../cogl/cogl-texture-2d-sliced.h \
+ ../../cogl/cogl-sub-texture.h ../../cogl/cogl-atlas-texture.h \
+ ../../cogl/cogl-meta-texture.h ../../cogl/cogl-pipeline-layer-state.h \
+ ../../cogl/cogl-primitive-texture.h ../../cogl/cogl-pipeline-state.h \
+ ../../cogl/cogl-onscreen.h ../../cogl/cogl-frame-info.h \
+ ../../cogl/cogl-poll.h ../../cogl/cogl-fence.h \
+ ../../cogl/cogl-glib-source.h ../../cogl/deprecated/cogl-clutter.h \
+ ../../cogl/cogl-deprecated.h ../../cogl-path/cogl-path.h \
+ ../../cogl-path/cogl-path-enum-types.h ../../cogl-path/cogl-path-types.h \
+ ../../cogl-path/cogl1-path-functions.h /usr/include/string.h \
+ /usr/include/arm-linux-gnueabihf/bits/string.h \
+ /usr/include/arm-linux-gnueabihf/bits/string2.h /usr/include/stdlib.h \
+ /usr/include/arm-linux-gnueabihf/bits/string3.h \
+ ../../test-fixtures/test-utils.h
+
+/usr/include/stdc-predef.h:
+
+../../cogl/cogl.h:
+
+../../cogl/cogl-defines.h:
+
+../../cogl/cogl-macros.h:
+
+../../cogl/cogl-version.h:
+
+../../cogl/cogl-error.h:
+
+../../cogl/cogl-types.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/4.9/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/arm-linux-gnueabihf/sys/cdefs.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wordsize.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wchar.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/4.9/include/stddef.h:
+
+/usr/include/glib-2.0/glib-object.h:
+
+/usr/include/glib-2.0/gobject/gbinding.h:
+
+/usr/include/glib-2.0/glib.h:
+
+/usr/include/glib-2.0/glib/galloca.h:
+
+/usr/include/glib-2.0/glib/gtypes.h:
+
+/usr/lib/arm-linux-gnueabihf/glib-2.0/include/glibconfig.h:
+
+/usr/include/glib-2.0/glib/gmacros.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/4.9/include-fixed/limits.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/4.9/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/arm-linux-gnueabihf/bits/posix1_lim.h:
+
+/usr/include/arm-linux-gnueabihf/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/arm-linux-gnueabihf/bits/posix2_lim.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/4.9/include/float.h:
+
+/usr/include/glib-2.0/glib/gversionmacros.h:
+
+/usr/include/time.h:
+
+/usr/include/arm-linux-gnueabihf/bits/time.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types.h:
+
+/usr/include/arm-linux-gnueabihf/bits/typesizes.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/glib-2.0/glib/garray.h:
+
+/usr/include/glib-2.0/glib/gasyncqueue.h:
+
+/usr/include/glib-2.0/glib/gthread.h:
+
+/usr/include/glib-2.0/glib/gatomic.h:
+
+/usr/include/glib-2.0/glib/gerror.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/4.9/include/stdarg.h:
+
+/usr/include/glib-2.0/glib/gquark.h:
+
+/usr/include/glib-2.0/glib/gutils.h:
+
+/usr/include/glib-2.0/glib/gbacktrace.h:
+
+/usr/include/signal.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sigset.h:
+
+/usr/include/arm-linux-gnueabihf/bits/signum.h:
+
+/usr/include/arm-linux-gnueabihf/bits/siginfo.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sigaction.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sigcontext.h:
+
+/usr/include/arm-linux-gnueabihf/asm/sigcontext.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sigstack.h:
+
+/usr/include/arm-linux-gnueabihf/sys/ucontext.h:
+
+/usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h:
+
+/usr/include/endian.h:
+
+/usr/include/arm-linux-gnueabihf/bits/endian.h:
+
+/usr/include/arm-linux-gnueabihf/bits/byteswap.h:
+
+/usr/include/arm-linux-gnueabihf/bits/byteswap-16.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sigthread.h:
+
+/usr/include/glib-2.0/glib/gbase64.h:
+
+/usr/include/glib-2.0/glib/gbitlock.h:
+
+/usr/include/glib-2.0/glib/gbookmarkfile.h:
+
+/usr/include/glib-2.0/glib/gbytes.h:
+
+/usr/include/glib-2.0/glib/gcharset.h:
+
+/usr/include/glib-2.0/glib/gchecksum.h:
+
+/usr/include/glib-2.0/glib/gconvert.h:
+
+/usr/include/glib-2.0/glib/gdataset.h:
+
+/usr/include/glib-2.0/glib/gdate.h:
+
+/usr/include/glib-2.0/glib/gdatetime.h:
+
+/usr/include/glib-2.0/glib/gtimezone.h:
+
+/usr/include/glib-2.0/glib/gdir.h:
+
+/usr/include/dirent.h:
+
+/usr/include/arm-linux-gnueabihf/bits/dirent.h:
+
+/usr/include/glib-2.0/glib/genviron.h:
+
+/usr/include/glib-2.0/glib/gfileutils.h:
+
+/usr/include/glib-2.0/glib/ggettext.h:
+
+/usr/include/glib-2.0/glib/ghash.h:
+
+/usr/include/glib-2.0/glib/glist.h:
+
+/usr/include/glib-2.0/glib/gmem.h:
+
+/usr/include/glib-2.0/glib/gnode.h:
+
+/usr/include/glib-2.0/glib/ghmac.h:
+
+/usr/include/glib-2.0/glib/gchecksum.h:
+
+/usr/include/glib-2.0/glib/ghook.h:
+
+/usr/include/glib-2.0/glib/ghostutils.h:
+
+/usr/include/glib-2.0/glib/giochannel.h:
+
+/usr/include/glib-2.0/glib/gmain.h:
+
+/usr/include/glib-2.0/glib/gpoll.h:
+
+/usr/include/glib-2.0/glib/gslist.h:
+
+/usr/include/glib-2.0/glib/gstring.h:
+
+/usr/include/glib-2.0/glib/gunicode.h:
+
+/usr/include/glib-2.0/glib/gkeyfile.h:
+
+/usr/include/glib-2.0/glib/gmappedfile.h:
+
+/usr/include/glib-2.0/glib/gmarkup.h:
+
+/usr/include/glib-2.0/glib/gmessages.h:
+
+/usr/include/glib-2.0/glib/goption.h:
+
+/usr/include/glib-2.0/glib/gpattern.h:
+
+/usr/include/glib-2.0/glib/gprimes.h:
+
+/usr/include/glib-2.0/glib/gqsort.h:
+
+/usr/include/glib-2.0/glib/gqueue.h:
+
+/usr/include/glib-2.0/glib/grand.h:
+
+/usr/include/glib-2.0/glib/gregex.h:
+
+/usr/include/glib-2.0/glib/gscanner.h:
+
+/usr/include/glib-2.0/glib/gsequence.h:
+
+/usr/include/glib-2.0/glib/gshell.h:
+
+/usr/include/glib-2.0/glib/gslice.h:
+
+/usr/include/glib-2.0/glib/gspawn.h:
+
+/usr/include/glib-2.0/glib/gstrfuncs.h:
+
+/usr/include/glib-2.0/glib/gstringchunk.h:
+
+/usr/include/glib-2.0/glib/gtestutils.h:
+
+/usr/include/glib-2.0/glib/gthreadpool.h:
+
+/usr/include/glib-2.0/glib/gtimer.h:
+
+/usr/include/glib-2.0/glib/gtrashstack.h:
+
+/usr/include/glib-2.0/glib/gtree.h:
+
+/usr/include/glib-2.0/glib/gurifuncs.h:
+
+/usr/include/glib-2.0/glib/gvarianttype.h:
+
+/usr/include/glib-2.0/glib/gvariant.h:
+
+/usr/include/glib-2.0/glib/gversion.h:
+
+/usr/include/glib-2.0/glib/glib-autocleanups.h:
+
+/usr/include/glib-2.0/gobject/gobject.h:
+
+/usr/include/glib-2.0/gobject/gtype.h:
+
+/usr/include/glib-2.0/gobject/gvalue.h:
+
+/usr/include/glib-2.0/gobject/gparam.h:
+
+/usr/include/glib-2.0/gobject/gclosure.h:
+
+/usr/include/glib-2.0/gobject/gsignal.h:
+
+/usr/include/glib-2.0/gobject/gmarshal.h:
+
+/usr/include/glib-2.0/gobject/gboxed.h:
+
+/usr/include/glib-2.0/gobject/glib-types.h:
+
+/usr/include/glib-2.0/gobject/genums.h:
+
+/usr/include/glib-2.0/gobject/gparamspecs.h:
+
+/usr/include/glib-2.0/gobject/gsourceclosure.h:
+
+/usr/include/glib-2.0/gobject/gtypemodule.h:
+
+/usr/include/glib-2.0/gobject/gtypeplugin.h:
+
+/usr/include/glib-2.0/gobject/gvaluearray.h:
+
+/usr/include/glib-2.0/gobject/gvaluetypes.h:
+
+/usr/include/glib-2.0/gobject/gobject-autocleanups.h:
+
+../../cogl/cogl-object.h:
+
+../../cogl/cogl-types.h:
+
+../../cogl/cogl1-context.h:
+
+../../cogl/cogl-texture.h:
+
+../../cogl/cogl-pixel-buffer.h:
+
+../../cogl/cogl-context.h:
+
+../../cogl/cogl-display.h:
+
+../../cogl/cogl-renderer.h:
+
+../../cogl/cogl-onscreen-template.h:
+
+../../cogl/cogl-swap-chain.h:
+
+../../cogl/cogl-output.h:
+
+../../cogl/cogl-primitive.h:
+
+../../cogl/cogl-attribute.h:
+
+../../cogl/cogl-attribute-buffer.h:
+
+../../cogl/cogl-indices.h:
+
+../../cogl/cogl-index-buffer.h:
+
+../../cogl/cogl-framebuffer.h:
+
+../../cogl/cogl-pipeline.h:
+
+../../cogl/cogl-snippet.h:
+
+../../cogl/cogl-bitmap.h:
+
+../../cogl/cogl-buffer.h:
+
+../../cogl/cogl-quaternion.h:
+
+../../cogl/cogl-vector.h:
+
+../../cogl/cogl-euler.h:
+
+../../cogl/cogl-color.h:
+
+../../cogl/cogl-matrix.h:
+
+../../cogl/cogl-matrix-stack.h:
+
+../../cogl/cogl-matrix.h:
+
+../../cogl/cogl-context.h:
+
+../../cogl/cogl-offscreen.h:
+
+../../cogl/cogl-primitives.h:
+
+../../cogl/cogl-enum-types.h:
+
+../../cogl/deprecated/cogl-clip-state.h:
+
+../../cogl/deprecated/cogl-vertex-buffer.h:
+
+../../cogl/deprecated/cogl-fixed.h:
+
+../../cogl/deprecated/cogl-material-compat.h:
+
+../../cogl/cogl-depth-state.h:
+
+../../cogl/deprecated/cogl-shader.h:
+
+../../cogl/deprecated/cogl-texture-deprecated.h:
+
+../../cogl/deprecated/cogl-type-casts.h:
+
+../../cogl/deprecated/cogl-framebuffer-deprecated.h:
+
+../../cogl/deprecated/cogl-auto-texture.h:
+
+../../cogl/cogl-texture-2d.h:
+
+../../cogl/cogl-bitmap.h:
+
+../../cogl/cogl-texture-2d-gl.h:
+
+../../cogl/cogl-texture-2d.h:
+
+../../cogl/cogl-texture-rectangle.h:
+
+../../cogl/cogl-texture-3d.h:
+
+../../cogl/cogl-texture-2d-sliced.h:
+
+../../cogl/cogl-sub-texture.h:
+
+../../cogl/cogl-atlas-texture.h:
+
+../../cogl/cogl-meta-texture.h:
+
+../../cogl/cogl-pipeline-layer-state.h:
+
+../../cogl/cogl-primitive-texture.h:
+
+../../cogl/cogl-pipeline-state.h:
+
+../../cogl/cogl-onscreen.h:
+
+../../cogl/cogl-frame-info.h:
+
+../../cogl/cogl-poll.h:
+
+../../cogl/cogl-fence.h:
+
+../../cogl/cogl-glib-source.h:
+
+../../cogl/deprecated/cogl-clutter.h:
+
+../../cogl/cogl-deprecated.h:
+
+../../cogl-path/cogl-path.h:
+
+../../cogl-path/cogl-path-enum-types.h:
+
+../../cogl-path/cogl-path-types.h:
+
+../../cogl-path/cogl1-path-functions.h:
+
+/usr/include/string.h:
+
+/usr/include/arm-linux-gnueabihf/bits/string.h:
+
+/usr/include/arm-linux-gnueabihf/bits/string2.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/arm-linux-gnueabihf/bits/string3.h:
+
+../../test-fixtures/test-utils.h:
