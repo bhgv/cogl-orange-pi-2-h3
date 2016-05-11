@@ -7,7 +7,7 @@ to build:
 $ ./my-cogl-confgure.sh
 ```
 in the *config.h* file find the string 
-```
+```c
 #define HAVE_DIRECTLY_LINKED_GL_LIBRARY 1
 ```
 and comment it
