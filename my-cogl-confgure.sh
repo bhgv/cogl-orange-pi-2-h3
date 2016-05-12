@@ -7,6 +7,7 @@
 --with-default-driver=gles2 \
 --enable-gdl-egl-platform=no \
 --enable-wayland-egl-platform=yes \
+--prefix=/usr \
 
 #--with-x
 #--disable-glibtest \
